@@ -20,17 +20,5 @@ import java.util.*; class Solution { public String solution(int[] food) { // 가
       
     </item>
     
-    <item>
-      <title>My First Post</title>
-      <link>https://jihookang-kor.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 12 Apr 2023 19:39:41 +0900</pubDate>
-      
-      <guid>https://jihookang-kor.github.io/posts/my-first-post/</guid>
-      
-        <description>한글 테스트.
-int i = 0; </description>
-      
-    </item>
-    
   </channel>
 </rss>
