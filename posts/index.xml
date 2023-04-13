@@ -5,7 +5,21 @@
     <link>https://jihookang-kor.github.io/posts/</link>
     <description>Recent content in Posts on Jihoo Kang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Apr 2023 19:39:41 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Apr 2023 21:42:03 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Coding Practice] 푸드 파이트 대회</title>
+      <link>https://jihookang-kor.github.io/posts/food-fight-contest/</link>
+      <pubDate>Thu, 13 Apr 2023 21:42:03 +0900</pubDate>
+      
+      <guid>https://jihookang-kor.github.io/posts/food-fight-contest/</guid>
+      
+        <description>푸드 파이트 대회 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+문제에서 원하는 것은 0으로 되어있는 가운데를 중심으로 양쪽이 대칭이 되는 숫자 구조인 String을 반환하는 것입니다. 그래서 저는 Stack을 이용하여 구현하였고, 먼저 Stack에 저장하면서 answer에도 같은 수를 추가하고 answer에 0을 더 추가한 뒤, Stack에 저장되어 있던 수를 차례대로 pop()으로 제거하면서 다시 answer에 같은 수를 저장하여 문제를 해결하였습니다.
+구체적인 코드는 아래와 같습니다.
+import java.util.*; class Solution { public String solution(int[] food) { // 가운데 0을 중심으로 양쪽이 대칭이다.</description>
+      
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://jihookang-kor.github.io/posts/my-first-post/</link>

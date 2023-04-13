@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        [Coding Practice] 푸드 파이트 대회 |
+      Jihoo Kang
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Jihoo Kang" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.5794be192d21535bdd301561e043a96b6adbad2b5c08279deff459e4661c613f.css"
+      integrity="sha256-V5S&#43;GS0hU1vdMBVh4EOpa2rbrStcCCed7/RZ5GYcYT8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://jihookang-kor.github.io/posts/food-fight-contest/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="[Coding Practice] 푸드 파이트 대회"/>
+<meta name="twitter:description" content="푸드 파이트 대회 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+문제에서 원하는 것은 0으로 되어있는 가운데를 중심으로 양쪽이 대칭이 되는 숫자 구조인 String을 반환하는 것입니다. 그래서 저는 Stack을 이용하여 구현하였고, 먼저 Stack에 저장하면서 answer에도 같은 수를 추가하고 answer에 0을 더 추가한 뒤, Stack에 저장되어 있던 수를 차례대로 pop()으로 제거하면서 다시 answer에 같은 수를 저장하여 문제를 해결하였습니다.
+구체적인 코드는 아래와 같습니다.
+import java.util.*; class Solution { public String solution(int[] food) { // 가운데 0을 중심으로 양쪽이 대칭이다."/>
+
+
+
+  
+  <meta property="og:title" content="[Coding Practice] 푸드 파이트 대회" />
+<meta property="og:description" content="푸드 파이트 대회 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+문제에서 원하는 것은 0으로 되어있는 가운데를 중심으로 양쪽이 대칭이 되는 숫자 구조인 String을 반환하는 것입니다. 그래서 저는 Stack을 이용하여 구현하였고, 먼저 Stack에 저장하면서 answer에도 같은 수를 추가하고 answer에 0을 더 추가한 뒤, Stack에 저장되어 있던 수를 차례대로 pop()으로 제거하면서 다시 answer에 같은 수를 저장하여 문제를 해결하였습니다.
+구체적인 코드는 아래와 같습니다.
+import java.util.*; class Solution { public String solution(int[] food) { // 가운데 0을 중심으로 양쪽이 대칭이다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jihookang-kor.github.io/posts/food-fight-contest/" /><meta property="og:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-13T21:42:03+09:00" />
+<meta property="article:modified_time" content="2023-04-13T21:42:03+09:00" /><meta property="og:site_name" content="Jihoo Kang&#39;s Blog" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "[Coding Practice] 푸드 파이트 대회",
+        "headline": "[Coding Practice] 푸드 파이트 대회",
+        "alternativeHeadline": "",
+        "description": "
+      
+        푸드 파이트 대회 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.\n문제에서 원하는 것은 0으로 되어있는 가운데를 중심으로 양쪽이 대칭이 되는 숫자 구조인 String을 반환하는 것입니다. 그래서 저는 Stack을 이용하여 구현하였고, 먼저 Stack에 저장하면서 answer에도 같은 수를 추가하고 answer에 0을 더 추가한 뒤, Stack에 저장되어 있던 수를 차례대로 pop()으로 제거하면서 다시 answer에 같은 수를 저장하여 문제를 해결하였습니다.\n구체적인 코드는 아래와 같습니다.\nimport java.util.*; class Solution { public String solution(int[] food) { \/\/ 가운데 0을 중심으로 양쪽이 대칭이다.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/jihookang-kor.github.io\/posts\/food-fight-contest\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-04-13T21:42:03.00Z",
+        "datePublished": "2023-04-13T21:42:03.00Z",
+        "dateModified": "2023-04-13T21:42:03.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Jihoo Kang",
+            "url": "https://jihookang-kor.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/jihookang-kor.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://jihookang-kor.github.io/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/jihookang-kor.github.io\/posts\/food-fight-contest\/",
+        "wordCount" : "218",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/75588742.png"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Jihoo Kang&#39;s Blog</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/posts/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>[Coding Practice] 푸드 파이트 대회</h1>
+      <p><a href="https://school.programmers.co.kr/learn/courses/30/lessons/134240">푸드 파이트 대회</a> 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.</p>
+<p>문제에서 원하는 것은 0으로 되어있는 가운데를 중심으로 양쪽이 대칭이 되는 숫자 구조인 String을 반환하는 것입니다. 그래서 저는 Stack을 이용하여 구현하였고, 먼저 Stack에 저장하면서 answer에도 같은 수를 추가하고 answer에 0을 더 추가한 뒤, Stack에 저장되어 있던 수를 차례대로 pop()으로 제거하면서 다시 answer에 같은 수를 저장하여 문제를 해결하였습니다.</p>
+<p>구체적인 코드는 아래와 같습니다.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.*</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">String</span> <span class="nf">solution</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">food</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 가운데 0을 중심으로 양쪽이 대칭이다.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// 스택을 하나 만들어 그 스택에 집어넣으면서 answer에 저장,
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// 0 추가 후 스택에서 빼면서 answer에 저장하여 답 도출.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// food의 index가 음식 종류, 값은 음식 개수인데 대칭이므로 짝수개만 사용 가능.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Stack</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">foodStack</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Stack</span><span class="o">&lt;&gt;();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">String</span> <span class="n">answer</span> <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1">// food의 각 element를 2로 나누고, 그 index수의 개수만큼 스택에 넣는다.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">food</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">halfNumFood</span> <span class="o">=</span> <span class="n">food</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">/</span> <span class="mi">2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">halfNumFood</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">foodStack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                <span class="n">answer</span> <span class="o">+=</span> <span class="n">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1">// 0 추가.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">answer</span> <span class="o">+=</span> <span class="n">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="mi">0</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1">// 스택에서 제거.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">while</span> <span class="o">(</span><span class="n">foodStack</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">answer</span> <span class="o">+=</span> <span class="n">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">foodStack</span><span class="o">.</span><span class="na">pop</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">answer</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><p>다른 풀이에서는 Stack을 굳이 사용하지 않고 바로 0을 중심으로 앞뒤에 같은 index의 수를 추가해서 한 번에 문제를 해결하는 것을 볼 수 있었는데 코드가 더욱 간결하다는 느낌이었습니다. (구체적인 코드는 직접 작성한 것이 아니므로 여기에 적어놓지 않았습니다.)</p>
+<hr>
+<p><strong>문제 출처</strong></p>
+<p><a href="https://programmers.co.kr/">Programmers</a></p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
