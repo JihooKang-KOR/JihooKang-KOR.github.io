@@ -5,7 +5,19 @@
     <link>https://jihookang-kor.github.io/posts/</link>
     <description>Recent content in Posts on Jihoo Kang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 Apr 2023 21:50:35 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 21:15:28 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Coding Practice] 체육복</title>
+      <link>https://jihookang-kor.github.io/posts/sportswear/</link>
+      <pubDate>Sun, 16 Apr 2023 21:15:28 +0900</pubDate>
+      
+      <guid>https://jihookang-kor.github.io/posts/sportswear/</guid>
+      
+        <description>체육복 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+주석에 설명되어있지만 이 문제는 lost에 있는 요소를 최대한 많이 줄여야 하기 때문에 lost 요소 개수를 줄여나가기만 하면 최적의 해를 구할 수 있습니다. 그러나 그 전에 먼저 예비 체육복을 가지고 있어도 그것이 없어졌다면 어차피 옆사람에게 빌려줄 수가 없으므로 lost와 reserve에 중복되는 요소들이 있다면 미리 제거를 해줍니다. 학생 수가 최대 30명 정도이기 때문에 이 경우에는 배열을 하나 만들어 각 인덱스가 학생 번호를 나타낼 수 있도록 해주는 것이 좋습니다.</description>
+      
+    </item>
+    
     <item>
       <title>[Coding Practice] 카드 뭉치</title>
       <link>https://jihookang-kor.github.io/posts/card-set/</link>
