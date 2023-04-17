@@ -5,7 +5,20 @@
     <link>https://jihookang-kor.github.io/</link>
     <description>Recent content on Jihoo Kang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Apr 2023 21:15:28 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 19:37:39 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Coding Practice] 명예의 전당 (1)</title>
+      <link>https://jihookang-kor.github.io/posts/hall-of-fame1/</link>
+      <pubDate>Mon, 17 Apr 2023 19:37:39 +0900</pubDate>
+      
+      <guid>https://jihookang-kor.github.io/posts/hall-of-fame1/</guid>
+      
+        <description>명예의 전당 (1) 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제의 요구사항은 정해진 리스트의 크기만큼만 점수를 저장 가능하고 그 중에서 최저값을 answer에 저장하는 것입니다. 요소의 정렬 및 삭제를 용이하게 하기 위해서 ArrayList를 사용하였고, hallOfFame 리스트의 크기가 k보다 커졌을 때 바로 제일 작은 크기의 요소를 제거해주면 되는데 내림차순이 되어있으므로 맨 마지막 인덱스의 값을 제거해주면 됩니다.
+import java.util.*; class Solution { public int[] solution(int k, int[] score) { // answer는 score의 길이만큼 설정.</description>
+      
+    </item>
+    
     <item>
       <title>[Coding Practice] 체육복</title>
       <link>https://jihookang-kor.github.io/posts/sportswear/</link>

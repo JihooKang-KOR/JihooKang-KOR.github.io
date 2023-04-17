@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        [Coding Practice] 명예의 전당 (1) |
+      Jihoo Kang
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Jihoo Kang" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.5794be192d21535bdd301561e043a96b6adbad2b5c08279deff459e4661c613f.css"
+      integrity="sha256-V5S&#43;GS0hU1vdMBVh4EOpa2rbrStcCCed7/RZ5GYcYT8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://jihookang-kor.github.io/posts/hall-of-fame1/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="[Coding Practice] 명예의 전당 (1)"/>
+<meta name="twitter:description" content="명예의 전당 (1) 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제의 요구사항은 정해진 리스트의 크기만큼만 점수를 저장 가능하고 그 중에서 최저값을 answer에 저장하는 것입니다. 요소의 정렬 및 삭제를 용이하게 하기 위해서 ArrayList를 사용하였고, hallOfFame 리스트의 크기가 k보다 커졌을 때 바로 제일 작은 크기의 요소를 제거해주면 되는데 내림차순이 되어있으므로 맨 마지막 인덱스의 값을 제거해주면 됩니다.
+import java.util.*; class Solution { public int[] solution(int k, int[] score) { // answer는 score의 길이만큼 설정."/>
+
+
+
+  
+  <meta property="og:title" content="[Coding Practice] 명예의 전당 (1)" />
+<meta property="og:description" content="명예의 전당 (1) 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제의 요구사항은 정해진 리스트의 크기만큼만 점수를 저장 가능하고 그 중에서 최저값을 answer에 저장하는 것입니다. 요소의 정렬 및 삭제를 용이하게 하기 위해서 ArrayList를 사용하였고, hallOfFame 리스트의 크기가 k보다 커졌을 때 바로 제일 작은 크기의 요소를 제거해주면 되는데 내림차순이 되어있으므로 맨 마지막 인덱스의 값을 제거해주면 됩니다.
+import java.util.*; class Solution { public int[] solution(int k, int[] score) { // answer는 score의 길이만큼 설정." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jihookang-kor.github.io/posts/hall-of-fame1/" /><meta property="og:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-17T19:37:39+09:00" />
+<meta property="article:modified_time" content="2023-04-17T19:37:39+09:00" /><meta property="og:site_name" content="Jihoo Kang&#39;s Blog" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "[Coding Practice] 명예의 전당 (1)",
+        "headline": "[Coding Practice] 명예의 전당 (1)",
+        "alternativeHeadline": "",
+        "description": "
+      
+        명예의 전당 (1) 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.\n이 문제의 요구사항은 정해진 리스트의 크기만큼만 점수를 저장 가능하고 그 중에서 최저값을 answer에 저장하는 것입니다. 요소의 정렬 및 삭제를 용이하게 하기 위해서 ArrayList를 사용하였고, hallOfFame 리스트의 크기가 k보다 커졌을 때 바로 제일 작은 크기의 요소를 제거해주면 되는데 내림차순이 되어있으므로 맨 마지막 인덱스의 값을 제거해주면 됩니다.\nimport java.util.*; class Solution { public int[] solution(int k, int[] score) { \/\/ answer는 score의 길이만큼 설정.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/jihookang-kor.github.io\/posts\/hall-of-fame1\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-04-17T19:37:39.00Z",
+        "datePublished": "2023-04-17T19:37:39.00Z",
+        "dateModified": "2023-04-17T19:37:39.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Jihoo Kang",
+            "url": "https://jihookang-kor.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/jihookang-kor.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://jihookang-kor.github.io/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/jihookang-kor.github.io\/posts\/hall-of-fame1\/",
+        "wordCount" : "195",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/75588742.png"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Jihoo Kang&#39;s Blog</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/posts/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>[Coding Practice] 명예의 전당 (1)</h1>
+      <p><a href="https://school.programmers.co.kr/learn/courses/30/lessons/138477">명예의 전당 (1)</a> 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.</p>
+<p>이 문제의 요구사항은 정해진 리스트의 크기만큼만 점수를 저장 가능하고 그 중에서 최저값을 answer에 저장하는 것입니다. 요소의 정렬 및 삭제를 용이하게 하기 위해서 ArrayList를 사용하였고, hallOfFame 리스트의 크기가 k보다 커졌을 때 바로 제일 작은 크기의 요소를 제거해주면 되는데 내림차순이 되어있으므로 맨 마지막 인덱스의 값을 제거해주면 됩니다.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.*</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">solution</span><span class="o">(</span><span class="kt">int</span> <span class="n">k</span><span class="o">,</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">score</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// answer는 score의 길이만큼 설정.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span><span class="o">[]</span> <span class="n">answer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">score</span><span class="o">.</span><span class="na">length</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1">// 명예의 전당 리스트에 최대 k개의 요소가 들어간다.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// 그 중에서 매일 최저점을 answer에 저장.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// 명예의 전당은 ArrayList로 저장하고 내림차순으로 정렬.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// k개가 되었을 때부터 내림차순으로 정렬 후 제일 작은 것을 제거.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">hallOfFame</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;();</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">score</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">hallOfFame</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">score</span><span class="o">[</span><span class="n">i</span><span class="o">]);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Collections</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">hallOfFame</span><span class="o">,</span> <span class="n">Collections</span><span class="o">.</span><span class="na">reverseOrder</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="o">(</span><span class="n">hallOfFame</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&lt;=</span> <span class="n">k</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">answer</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">hallOfFame</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">hallOfFame</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">hallOfFame</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">hallOfFame</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                <span class="n">answer</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">hallOfFame</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">hallOfFame</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1">// PriorityQueue를 이용하여 자동 오름차순 정렬 및 peek()로 값 저장하는 방법도 가능.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">return</span> <span class="n">answer</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><p>풀기에는 무난한 문제였지만 다른 풀이를 보니 애초에 PriorityQueue를 이용하여 자동 오름차순 정렬을 시키는 방법을 사용한 것을 확인하여 조금 더 간략하게 코드를 짤 수 있다는 것을 알게되었습니다.</p>
+<hr>
+<p><strong>문제 출처</strong></p>
+<p><a href="https://programmers.co.kr/">Programmers</a></p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
