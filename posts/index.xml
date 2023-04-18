@@ -5,7 +5,19 @@
     <link>https://jihookang-kor.github.io/posts/</link>
     <description>Recent content in Posts on Jihoo Kang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Apr 2023 19:37:39 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 19:03:24 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Coding Practice] 완주하지 못한 선수</title>
+      <link>https://jihookang-kor.github.io/posts/unfinished-player/</link>
+      <pubDate>Tue, 18 Apr 2023 19:03:24 +0900</pubDate>
+      
+      <guid>https://jihookang-kor.github.io/posts/unfinished-player/</guid>
+      
+        <description>완주하지 못한 선수 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제는 동명이인이 존재하는 경우도 고려해서 완주하지 못한 선수 한 명을 찾아내는 문제입니다. 처음에 시도했던 방법은 중복되는 요소를 없애기 위해 간단하게 HashSet으로 변경 후 순회 중에 값이 존재할 경우 해당 Set에서 그 값을 제거하는 식이었습니다. 그러나 이 방법은 동명이인이 3명 이상일 경우에는 2명째에 Set에서 값이 없어져버려 더 이상 확인이 불가능하다는 문제가 있었습니다. 그래서 두 번째 방법으로 HashMap을 사용하여 key에는 이름, value에는 이름의 등장 횟수를 저장하여 문제를 해결하였습니다.</description>
+      
+    </item>
+    
     <item>
       <title>[Coding Practice] 명예의 전당 (1)</title>
       <link>https://jihookang-kor.github.io/posts/hall-of-fame1/</link>
