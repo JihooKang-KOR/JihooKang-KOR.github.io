@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        [Coding Practice] 햄버거 만들기 |
+      Jihoo Kang
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Jihoo Kang" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.5794be192d21535bdd301561e043a96b6adbad2b5c08279deff459e4661c613f.css"
+      integrity="sha256-V5S&#43;GS0hU1vdMBVh4EOpa2rbrStcCCed7/RZ5GYcYT8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://jihookang-kor.github.io/posts/making-hamburger/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="[Coding Practice] 햄버거 만들기"/>
+<meta name="twitter:description" content="햄버거 만들기 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제는 특정 패턴이 존재할 때마다 answer에 1씩 더해주면 되는 것이기 때문에 처음에는 아래 코드와 같이 문자열로 바꿔서 해당 패턴이 있을 때마다 찾아서 제거하는 방식으로 진행하였습니다. 그러나 아무리 효율적으로 하려고 해도 테스트 케이스 1개가 마지막까지 통과되지 못해서 할 수 없이 다른 방법을 생각해보기로 하였습니다.
+import java.util.*; class Solution { public int solution(int[] ingredient) { int answer = 0; // ingredient를 String으로 만든 후 &#34;1231&#34; 패턴이 나올 때마다 substring으로 제거."/>
+
+
+
+  
+  <meta property="og:title" content="[Coding Practice] 햄버거 만들기" />
+<meta property="og:description" content="햄버거 만들기 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제는 특정 패턴이 존재할 때마다 answer에 1씩 더해주면 되는 것이기 때문에 처음에는 아래 코드와 같이 문자열로 바꿔서 해당 패턴이 있을 때마다 찾아서 제거하는 방식으로 진행하였습니다. 그러나 아무리 효율적으로 하려고 해도 테스트 케이스 1개가 마지막까지 통과되지 못해서 할 수 없이 다른 방법을 생각해보기로 하였습니다.
+import java.util.*; class Solution { public int solution(int[] ingredient) { int answer = 0; // ingredient를 String으로 만든 후 &#34;1231&#34; 패턴이 나올 때마다 substring으로 제거." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jihookang-kor.github.io/posts/making-hamburger/" /><meta property="og:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-19T20:11:07+09:00" />
+<meta property="article:modified_time" content="2023-04-19T20:11:07+09:00" /><meta property="og:site_name" content="Jihoo Kang&#39;s Blog" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "[Coding Practice] 햄버거 만들기",
+        "headline": "[Coding Practice] 햄버거 만들기",
+        "alternativeHeadline": "",
+        "description": "
+      
+        햄버거 만들기 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.\n이 문제는 특정 패턴이 존재할 때마다 answer에 1씩 더해주면 되는 것이기 때문에 처음에는 아래 코드와 같이 문자열로 바꿔서 해당 패턴이 있을 때마다 찾아서 제거하는 방식으로 진행하였습니다. 그러나 아무리 효율적으로 하려고 해도 테스트 케이스 1개가 마지막까지 통과되지 못해서 할 수 없이 다른 방법을 생각해보기로 하였습니다.\nimport java.util.*; class Solution { public int solution(int[] ingredient) { int answer = 0; \/\/ ingredient를 String으로 만든 후 \u0026#34;1231\u0026#34; 패턴이 나올 때마다 substring으로 제거.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/jihookang-kor.github.io\/posts\/making-hamburger\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-04-19T20:11:07.00Z",
+        "datePublished": "2023-04-19T20:11:07.00Z",
+        "dateModified": "2023-04-19T20:11:07.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Jihoo Kang",
+            "url": "https://jihookang-kor.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/jihookang-kor.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://jihookang-kor.github.io/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/jihookang-kor.github.io\/posts\/making-hamburger\/",
+        "wordCount" : "367",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/75588742.png"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Jihoo Kang&#39;s Blog</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/posts/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>[Coding Practice] 햄버거 만들기</h1>
+      <p><a href="https://school.programmers.co.kr/learn/courses/30/lessons/133502">햄버거 만들기</a> 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.</p>
+<p>이 문제는 특정 패턴이 존재할 때마다 answer에 1씩 더해주면 되는 것이기 때문에 처음에는 아래 코드와 같이 문자열로 바꿔서 해당 패턴이 있을 때마다 찾아서 제거하는 방식으로 진행하였습니다. 그러나 아무리 효율적으로 하려고 해도 테스트 케이스 1개가 마지막까지 통과되지 못해서 할 수 없이 다른 방법을 생각해보기로 하였습니다.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.*</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">solution</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">ingredient</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">answer</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// ingredient를 String으로 만든 후 &#34;1231&#34; 패턴이 나올 때마다 substring으로 제거.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">StringBuilder</span> <span class="n">ingStr</span> <span class="o">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="o">(</span><span class="s">&#34;&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">ingredient</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">ingStr</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">ingredient</span><span class="o">[</span><span class="n">i</span><span class="o">]));</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="c1">// 1000000 이므로 이미 한 번 확인한 index 중 앞의 몇개 이외에는 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// 다시 확인하지 않도록 작성한다.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">outerloop</span> <span class="o">:</span> <span class="k">while</span> <span class="o">(</span><span class="kc">true</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="o">(</span><span class="n">ingStr</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">break</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">idx</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">ingStr</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">-</span> <span class="mi">3</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="o">(</span><span class="n">ingStr</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="n">j</span><span class="o">,</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">4</span><span class="o">).</span><span class="na">equals</span><span class="o">(</span><span class="s">&#34;1231&#34;</span><span class="o">))</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">answer</span><span class="o">++;</span>
+</span></span><span class="line"><span class="cl">                    <span class="kt">int</span> <span class="n">tmpIdx</span> <span class="o">=</span> <span class="n">ingStr</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="s">&#34;1231&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">ingStr</span><span class="o">.</span><span class="na">delete</span><span class="o">(</span><span class="n">tmpIdx</span><span class="o">,</span> <span class="n">tmpIdx</span> <span class="o">+</span> <span class="mi">4</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="o">(</span><span class="n">j</span> <span class="o">-</span> <span class="mi">3</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">idx</span> <span class="o">=</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">3</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">idx</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">break</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="o">(!</span><span class="n">ingStr</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="n">j</span><span class="o">,</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">4</span><span class="o">).</span><span class="na">equals</span><span class="o">(</span><span class="s">&#34;1231&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">                        <span class="o">&amp;&amp;</span> <span class="n">j</span> <span class="o">==</span> <span class="n">ingStr</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">-</span> <span class="mi">4</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">break</span> <span class="n">outerloop</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">answer</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><p>위의 코드는 아래와 같이 아예 새로 변경되었습니다. 반복문을 여러 번 사용하지 않고 한 번에 처리하려면 스택 같은 구조가 필요했는데, 이번 문제는 한 개만 peek() 하는 것이 아닌 4개를 한꺼번에 점검해야 하기 때문에 ArrayList를 스택과 비슷한 방식으로 사용하였습니다. 반복문을 한 번 돌면서 그때그때 값을 리스트에 저장하다가 리스트 요소의 개수가 4개 이상일 때부터 특정 패턴이 나오는지 계속 확인을 하고 패턴이 존재하면 바로 요소 4개를 제거하면 되겠습니다.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.*</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">solution</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">ingredient</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">answer</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 시간 초과로 인해 스택을 사용하여 해결하는 방법으로 변경.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// 한 번에 4개의 요소를 점검해야 하므로 Stack의 peek()이 아닌 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// ArrayList를 Stack과 유사하게 사용.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">ingList</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;();</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">ingredient</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">ingList</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">ingredient</span><span class="o">[</span><span class="n">i</span><span class="o">]);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">4</span><span class="o">)</span> <span class="o">==</span> <span class="mi">1</span> 
+</span></span><span class="line"><span class="cl">                    <span class="o">&amp;&amp;</span> <span class="n">ingList</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">3</span><span class="o">)</span> <span class="o">==</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">&amp;&amp;</span> <span class="n">ingList</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">2</span><span class="o">)</span> <span class="o">==</span> <span class="mi">3</span> 
+</span></span><span class="line"><span class="cl">                    <span class="o">&amp;&amp;</span> <span class="n">ingList</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">)</span> <span class="o">==</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">answer</span><span class="o">++;</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">ingList</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">ingList</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">ingList</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">ingList</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">ingList</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">answer</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<p><strong>문제 출처</strong></p>
+<p><a href="https://programmers.co.kr/">Programmers</a></p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
