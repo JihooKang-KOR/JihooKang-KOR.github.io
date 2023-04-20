@@ -5,7 +5,20 @@
     <link>https://jihookang-kor.github.io/posts/</link>
     <description>Recent content in Posts on Jihoo Kang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Apr 2023 20:11:07 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 20:22:21 +0900</lastBuildDate><atom:link href="https://jihookang-kor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Coding Practice] 대충 만든 자판</title>
+      <link>https://jihookang-kor.github.io/posts/roughly-made-keyboard/</link>
+      <pubDate>Thu, 20 Apr 2023 20:22:21 +0900</pubDate>
+      
+      <guid>https://jihookang-kor.github.io/posts/roughly-made-keyboard/</guid>
+      
+        <description>대충 만든 자판 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제는 keymap과 target의 최대 길이가 각각 100이므로 3중 반복문까지 사용해도 해결이 가능하겠다는 생각이 들었습니다. 그래서 target의 각 글자를 몇 번이나 keymap에서 눌러야하는지 keymap의 최소값을 삼항연산자로 찾아내는 로직을 작성하였고, keymap의 구성 중 target의 글자가 없는 경우는 continue로 반복문의 한 사이클만 넘기는 방법을 사용하였습니다.
+class Solution { public int[] solution(String[] keymap, String[] targets) { // keymap의 모든 원소에서 각각 for문으로 // targets 각 요소의 각 글자들의 위치를 찾는다.</description>
+      
+    </item>
+    
     <item>
       <title>[Coding Practice] 햄버거 만들기</title>
       <link>https://jihookang-kor.github.io/posts/making-hamburger/</link>

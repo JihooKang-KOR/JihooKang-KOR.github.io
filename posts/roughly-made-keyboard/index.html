@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        [Coding Practice] 대충 만든 자판 |
+      Jihoo Kang
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Jihoo Kang" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.5794be192d21535bdd301561e043a96b6adbad2b5c08279deff459e4661c613f.css"
+      integrity="sha256-V5S&#43;GS0hU1vdMBVh4EOpa2rbrStcCCed7/RZ5GYcYT8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://jihookang-kor.github.io/posts/roughly-made-keyboard/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="[Coding Practice] 대충 만든 자판"/>
+<meta name="twitter:description" content="대충 만든 자판 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제는 keymap과 target의 최대 길이가 각각 100이므로 3중 반복문까지 사용해도 해결이 가능하겠다는 생각이 들었습니다. 그래서 target의 각 글자를 몇 번이나 keymap에서 눌러야하는지 keymap의 최소값을 삼항연산자로 찾아내는 로직을 작성하였고, keymap의 구성 중 target의 글자가 없는 경우는 continue로 반복문의 한 사이클만 넘기는 방법을 사용하였습니다.
+class Solution { public int[] solution(String[] keymap, String[] targets) { // keymap의 모든 원소에서 각각 for문으로 // targets 각 요소의 각 글자들의 위치를 찾는다."/>
+
+
+
+  
+  <meta property="og:title" content="[Coding Practice] 대충 만든 자판" />
+<meta property="og:description" content="대충 만든 자판 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.
+이 문제는 keymap과 target의 최대 길이가 각각 100이므로 3중 반복문까지 사용해도 해결이 가능하겠다는 생각이 들었습니다. 그래서 target의 각 글자를 몇 번이나 keymap에서 눌러야하는지 keymap의 최소값을 삼항연산자로 찾아내는 로직을 작성하였고, keymap의 구성 중 target의 글자가 없는 경우는 continue로 반복문의 한 사이클만 넘기는 방법을 사용하였습니다.
+class Solution { public int[] solution(String[] keymap, String[] targets) { // keymap의 모든 원소에서 각각 for문으로 // targets 각 요소의 각 글자들의 위치를 찾는다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jihookang-kor.github.io/posts/roughly-made-keyboard/" /><meta property="og:image" content="https://jihookang-kor.github.io/images/site-feature-image.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-20T20:22:21+09:00" />
+<meta property="article:modified_time" content="2023-04-20T20:22:21+09:00" /><meta property="og:site_name" content="Jihoo Kang&#39;s Blog" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "[Coding Practice] 대충 만든 자판",
+        "headline": "[Coding Practice] 대충 만든 자판",
+        "alternativeHeadline": "",
+        "description": "
+      
+        대충 만든 자판 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.\n이 문제는 keymap과 target의 최대 길이가 각각 100이므로 3중 반복문까지 사용해도 해결이 가능하겠다는 생각이 들었습니다. 그래서 target의 각 글자를 몇 번이나 keymap에서 눌러야하는지 keymap의 최소값을 삼항연산자로 찾아내는 로직을 작성하였고, keymap의 구성 중 target의 글자가 없는 경우는 continue로 반복문의 한 사이클만 넘기는 방법을 사용하였습니다.\nclass Solution { public int[] solution(String[] keymap, String[] targets) { \/\/ keymap의 모든 원소에서 각각 for문으로 \/\/ targets 각 요소의 각 글자들의 위치를 찾는다.
+
+
+      
+
+
+    ",
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/jihookang-kor.github.io\/posts\/roughly-made-keyboard\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Jihoo Kang"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-04-20T20:22:21.00Z",
+        "datePublished": "2023-04-20T20:22:21.00Z",
+        "dateModified": "2023-04-20T20:22:21.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Jihoo Kang",
+            "url": "https://jihookang-kor.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/jihookang-kor.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://jihookang-kor.github.io/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/jihookang-kor.github.io\/posts\/roughly-made-keyboard\/",
+        "wordCount" : "178",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/75588742.png"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Jihoo Kang&#39;s Blog</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/posts/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>[Coding Practice] 대충 만든 자판</h1>
+      <p><a href="https://school.programmers.co.kr/learn/courses/30/lessons/160586">대충 만든 자판</a> 문제에 대한 설명은 프로그래머스 사이트를 참조바랍니다.</p>
+<p>이 문제는 keymap과 target의 최대 길이가 각각 100이므로 3중 반복문까지 사용해도 해결이 가능하겠다는 생각이 들었습니다. 그래서 target의 각 글자를 몇 번이나 keymap에서 눌러야하는지 keymap의 최소값을 삼항연산자로 찾아내는 로직을 작성하였고, keymap의 구성 중 target의 글자가 없는 경우는 continue로 반복문의 한 사이클만 넘기는 방법을 사용하였습니다.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">solution</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">keymap</span><span class="o">,</span> <span class="n">String</span><span class="o">[]</span> <span class="n">targets</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// keymap의 모든 원소에서 각각 for문으로 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// targets 각 요소의 각 글자들의 위치를 찾는다.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// 여러 개가 나올 경우 그 중에 제일 작은 index를 저장.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span><span class="o">[]</span> <span class="n">answer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">targets</span><span class="o">.</span><span class="na">length</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">minIdx</span> <span class="o">=</span> <span class="mi">100</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">targets</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">k</span> <span class="o">&lt;</span> <span class="n">targets</span><span class="o">[</span><span class="n">j</span><span class="o">].</span><span class="na">length</span><span class="o">();</span> <span class="n">k</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">keymap</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="kt">int</span> <span class="n">tmpIdx</span> <span class="o">=</span> <span class="n">keymap</span><span class="o">[</span><span class="n">i</span><span class="o">].</span><span class="na">indexOf</span><span class="o">(</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">String</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">targets</span><span class="o">[</span><span class="n">j</span><span class="o">].</span><span class="na">charAt</span><span class="o">(</span><span class="n">k</span><span class="o">)));</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="o">(</span><span class="n">tmpIdx</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">minIdx</span> <span class="o">=</span> <span class="n">tmpIdx</span> <span class="o">&lt;</span> <span class="n">minIdx</span> <span class="o">?</span> <span class="n">tmpIdx</span> <span class="o">:</span> <span class="n">minIdx</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="k">continue</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="o">(</span><span class="n">minIdx</span> <span class="o">==</span> <span class="mi">100</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">answer</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">break</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">                <span class="o">}</span>
+</span></span><span class="line"><span class="cl">                <span class="n">answer</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">+=</span> <span class="o">(</span><span class="n">minIdx</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                <span class="n">minIdx</span> <span class="o">=</span> <span class="mi">100</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">answer</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><hr>
+<p><strong>문제 출처</strong></p>
+<p><a href="https://programmers.co.kr/">Programmers</a></p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Jihoo Kang
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
